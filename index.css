@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fb;
+    padding: 20px;
+    color: #333;
+}
+
+#table-container {
+    max-width: 1800px;
+    margin: 2rem auto 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background: white;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 20px;
+    text-align: left;
+    user-select: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #444;
+}
+
+thead tr:first-child th {
+    background: #1976d2;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+thead tr:first-child th:hover {
+    background-color: #1565c0;
+}
+
+tbody tr:hover {
+    background-color: #e3f2fd;
+    transition: background-color 0.3s ease;
+}
+
+/* Sort-Pfeile */
+th.sort-asc::after,
+th.sort-desc::after {
+    content: '';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform: translateY(-50%);
+}
+th.sort-asc::after {
+    border-width: 6px 5px 0 5px;
+    border-color: #fff transparent transparent transparent;
+}
+th.sort-desc::after {
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #fff transparent;
+}
+
+/* Filter Row Styling */
+thead tr:nth-child(2) th {
+    background: #f5f9ff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+select.column-filter {
+    width: 100%;
+    border: 1.8px solid #bbb;
+    border-radius: 8px;
+    background-color: white;
+    color: #555;
+    font-size: 13px;
+    padding: 6px 10px;
+    font-weight: 400;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+select.column-filter:hover {
+    border-color: #1976d2;
+    box-shadow: 0 0 5px rgba(25, 118, 210, 0.4);
+}
+
+select.column-filter:focus {
+    outline: none;
+    border-color: #0d47a1;
+    box-shadow: 0 0 7px rgba(13, 71, 161, 0.7);
+}

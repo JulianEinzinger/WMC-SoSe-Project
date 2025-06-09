@@ -1,0 +1,11 @@
+iso3_country,sector,subsector,start_time,end_time,gas,emissions_quantity,emissions_quantity_units,temporal_granularity,created_date,modified_date
+UNK,transportation,non-broadcasting-vessels,2016-01-01 00:00:00,2016-12-31 00:00:00,co2,214049517.623066,,annual,,
+UNK,transportation,non-broadcasting-vessels,2017-01-01 00:00:00,2017-12-31 00:00:00,co2,226524884.4905489,,annual,,
+UNK,transportation,non-broadcasting-vessels,2018-01-01 00:00:00,2018-12-31 00:00:00,co2,240701723.5627318,,annual,,
+UNK,transportation,non-broadcasting-vessels,2019-01-01 00:00:00,2019-12-31 00:00:00,co2,255761399.9524047,,annual,,
+UNK,transportation,non-broadcasting-vessels,2020-01-01 00:00:00,2020-12-31 00:00:00,co2,231698236.69765443,,annual,,
+UNK,transportation,non-broadcasting-vessels,2021-01-01 00:00:00,2021-12-31 00:00:00,co2,227682759.98242268,,annual,,
+UNK,transportation,non-broadcasting-vessels,2022-01-01 00:00:00,2022-12-31 00:00:00,co2,202274036.7336907,,annual,,
+UNK,transportation,non-broadcasting-vessels,2023-01-01 00:00:00,2023-12-31 00:00:00,co2,187998350.4643259,,annual,,
+UNK,transportation,non-broadcasting-vessels,2024-01-01 00:00:00,2024-12-31 00:00:00,co2,182925360.0630072,,annual,,
+UNK,transportation,non-broadcasting-vessels,2025-01-01 00:00:00,2025-12-31 00:00:00,co2,39395522.48083829,,annual,,
